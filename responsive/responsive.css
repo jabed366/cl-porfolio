@@ -1,0 +1,126 @@
+@media all and (max-width:1525px){
+    .fixed-with {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        
+    }
+}
+@media all and (max-width:1427px){
+    .service-item h3 {
+        font-size: 23px;
+    }
+    .service-item {
+        padding: 61px;
+    }
+}
+
+@media all and (max-width:1321px){
+    .service-item h3 {
+        font-size: 23px;
+    }
+    .service-item {
+        padding: 61px;
+    }
+    .about-me-content {
+        margin-top: 23px;
+    }
+    .about-me-content h5 {
+        padding: 15px 0px;
+    }
+}
+
+
+@media all and (max-width:1175px){
+    .service-item {
+
+        padding: 50px 20px;
+      
+    }
+    .about-me-image {
+        width: 44%;
+        margin-left: 0%;
+    }
+    .about-me-content {
+        width: 56%;
+        margin-top: 40px;
+    }
+   
+}
+@media all and (max-width:1019px){
+    .header-left {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .header-right { 
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul {
+        text-align: center;
+    }  
+    .header-right ul li a {
+
+        border-right: none;
+     
+    }
+}
+@media all and (max-width:930px){
+    .service-item {
+        border-radius: 0;  
+    }
+    .service-item h3 {
+       font-size: 19px;
+       
+      
+    }
+    .about-me-image {
+        width: 100%;
+    }
+    .about-me-content {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+}
+@media all and (max-width:883px){
+    .service-item {
+        padding: 50px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 20px 0px;
+    }
+}
+@media all and (max-width:546px) {
+    .service {
+        background-color: #f9f9f9;
+        padding: 0;
+    }
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-right {
+        width: 100%;
+    }
+    .social-menu {
+        text-align: center;
+        padding-top: 32px;
+    }
+}
+@media all and (max-width:489px) {
+    .banner-caption h2 {
+       
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .banner-caption h1 {
+        font-size: 24px;
+        
+    }
+}

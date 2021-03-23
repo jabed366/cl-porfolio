@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/*  Header CSS  */
+.fixed-with {
+
+    width: 1490px;
+    margin: auto;
+
+}
+
+.header{
+    background-color: rgb(245, 222, 179);
+}
+.header-left{
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+    /*! margin-left: -203px; */
+}
+.header-left img{
+    width: 140px;
+    text-align: center;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 30px;
+    line-height: 67px;
+    border-right: 1px solid #fff;
+    transition: .4s;
+}
+.header-right ul li a:hover{
+    background: #2980b9;
+}
+
+
+/*  Banner  */
+.banner{
+    background: url("https://i.ibb.co/2kN0DXn/intro-bg.jpg") no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+
+.banner-caption{}
+.banner-caption h2{
+    color: rgb(83, 153, 188);
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-caption h1{
+    color: rgb(83, 153, 188);
+    margin-top: 10px;
+}
+
+
+/* .about-me-section */
+.about-me-section{
+    margin-top: 70px;
+    margin-bottom: 58px;
+}
+.about-me-image{
+    float: left;
+    width: 24%;
+    margin-left: 52px;
+}
+.about-me-image img{
+    max-width: 100%;
+}
+.about-me-content{
+    float: right;
+    width: 70%;
+    padding-left: 44px;
+    box-sizing: border-box;
+    margin-top: 58px;
+    
+}
+.about-me-content h3{
+    font-size: 31px;
+}
+.about-me-content h5{
+    font-size: 1.7rem;
+padding: 20px 0px;
+}
+.about-me-content p{
+    line-height: 2rem;
+font-size: 18px;
+}
+
+/* Service Section */
+.service {
+    background-color: #f9f9f9;
+    padding: 80px;
+}
+.service-item {
+    border: 1px dotted black;
+    width: 31%;
+    float: left;
+    height: auto;
+    margin-right: 1%;
+    padding: 73px;
+    box-sizing: border-box;
+    border-radius: 90px 0px;
+}
+.service-item span {
+    display: block;
+    height: 60px;
+    width: 60px;
+    color: #3498db;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+    border: 3px solid #3498db;
+}
+.service-item h3 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+.service-item p{}
+/* Footer */
+.footer{
+    background: #2c3e50;
+    color: #fff;
+    padding: 15px 0;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+
+
+.social-menu{
+    text-align: right;
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
