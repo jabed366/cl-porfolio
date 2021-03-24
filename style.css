@@ -125,7 +125,7 @@ font-size: 18px;
     padding: 80px;
 }
 .service-item {
-    border: 1px dotted black;
+    border: 1px dashed black;
     width: 31%;
     float: left;
     height: auto;
