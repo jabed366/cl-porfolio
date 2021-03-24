@@ -31,6 +31,7 @@
     .about-me-content h5 {
         padding: 15px 0px;
     }
+    
 }
 
 
@@ -123,4 +124,9 @@
         font-size: 24px;
         
     }
+     .header-right ul li {
+        display: inline-block;
+        margin-left: -10px;
+    }
+    
 }
